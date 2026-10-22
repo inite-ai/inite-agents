@@ -2,8 +2,6 @@
 
 Ghost runs no plugins, so a Ghost site connects in two parts. INITE publishes your approved articles to Ghost itself, through Ghost's Admin API. The snippet takes care of the head.
 
-> Both ship with the next inite.ai release. If the cabinet does not show the Ghost panel or the Snippet platform yet, they will arrive shortly.
-
 ## Articles: INITE publishes through the Admin API
 
 1. In Ghost, open **Settings → Advanced → Integrations** and add a custom integration. Call it INITE Agents.

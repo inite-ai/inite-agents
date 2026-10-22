@@ -2,8 +2,6 @@
 
 If your site builder lets you paste code into the page `<head>`, one tag connects it. This covers Tilda, Squarespace, Wix, Webflow, Framer, Ghost, Shopify, Bitrix, Joomla and hand-made sites. The tag carries no key, so it is safe in public HTML.
 
-> The snippet ships with the next inite.ai release. If the cabinet does not offer the **Snippet** platform yet, it will shortly.
-
 ## Set it up
 
 1. In the [INITE cabinet](https://inite.ai/en/profile?tab=agents), open **For agents**, confirm your facts and turn the **Snippet** on.
