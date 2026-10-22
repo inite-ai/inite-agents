@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Security vulnerability
+    url: https://inite.ai/.well-known/security.txt
+    about: Write to security@inite.ai. Please do not open a public issue.
+  - name: API reference
+    url: https://inite.ai/en/mcp#site-api
+    about: Every endpoint, the webhook events and the signature.
+  - name: Your INITE account, facts or site key
+    url: https://inite.ai/en/contact
+    about: Account and billing questions go to INITE directly, not to a public issue.

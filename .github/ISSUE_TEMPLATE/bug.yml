@@ -1,0 +1,43 @@
+name: Something does not work
+description: A connector, the snippet, the API or a webhook behaves differently from the docs.
+labels: [bug]
+body:
+  - type: dropdown
+    id: connector
+    attributes:
+      label: Connector
+      options:
+        - WordPress plugin
+        - Next.js (@inite/site-agents)
+        - Snippet / any site
+        - Ghost
+        - Webhooks / REST
+        - Something else
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Plugin or package version, and your WordPress, Next.js or PHP version where it matters.
+      placeholder: "plugin 0.3.0, WordPress 6.9, PHP 8.3"
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what you expected
+      description: The steps, the URL that answered wrongly (your site's, not a key), and what the settings screen or the cabinet says.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Output or logs
+      description: Response status and body, PHP or server log lines. Remove site keys (isk_…) and webhook secrets (whsec_…) first.
+      render: text
+  - type: checkboxes
+    id: secrets
+    attributes:
+      label: Before you post
+      options:
+        - label: This issue contains no site key, webhook secret or personal data, and it is not a security vulnerability (those go to security@inite.ai).
+          required: true
