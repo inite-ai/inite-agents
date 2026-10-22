@@ -22,9 +22,9 @@ You confirm the facts once in the [INITE cabinet](https://inite.ai/en/profile?ta
 | **WordPress** | Plugin: root files, robots.txt, head, abilities for the WordPress MCP Adapter, articles | [Releases](https://github.com/inite-ai/inite-agents-wordpress/releases) · [inite.ai zip](https://inite.ai/downloads/inite-agents.zip) · [source](https://github.com/inite-ai/inite-agents-wordpress) | [docs/wordpress.md](docs/wordpress.md) |
 | **Next.js** | npm package: two route files and one head component, plus the article queue | [`@inite/site-agents`](https://www.npmjs.com/package/@inite/site-agents) · [source](https://github.com/inite-ai/site-agents) | [docs/nextjs.md](docs/nextjs.md) |
 | **Any site with a head-code box** (Tilda, Squarespace, Wix, Webflow, Framer, Ghost, Shopify, Bitrix, Joomla, hand-made) | The snippet: one `<script>` tag, no key | the cabinet | [docs/any-site.md](docs/any-site.md) |
-| **Ghost** | The snippet for the head, the webhook and the Admin API for articles | the cabinet | [docs/ghost.md](docs/ghost.md) |
+| **Ghost** | INITE publishes approved articles through Ghost's Admin API; the snippet for the head | the cabinet | [docs/ghost.md](docs/ghost.md) |
 | **Any stack** | REST endpoints with a site key, and signed webhooks | the cabinet | [docs/webhooks-and-rest.md](docs/webhooks-and-rest.md) · [examples/](examples/) |
-| Webflow, Shopify, Framer, Wix, Notion, WordPress.com | Apps of their own are coming. Until then, the snippet connects all of these except Notion | | |
+| Webflow, Shopify, Framer, Wix, Notion, WordPress.com | Apps of their own are coming. Until then, the snippet connects all of these except Notion | | [docs/any-site.md](docs/any-site.md) |
 
 The full API reference is at **https://inite.ai/en/mcp#site-api**.
 
